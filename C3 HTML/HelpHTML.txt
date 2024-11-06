@@ -1,0 +1,42 @@
+Lista de Etiquetas HTML más Utilizadas
+
+ESTRUCTURA BASICA
+<html>: Raíz de todo documento HTML. Engloba todo el contenido de la página.
+<head>: Contiene metadatos (información sobre el documento) como el título, enlaces a hojas de estilo y scripts. No es visible en la página.
+<title>: Define el título de la página, que aparece en la barra del navegador y en los resultados de búsqueda.
+<body>: Contiene el contenido principal de la página, es decir, todo lo que el usuario verá.
+
+CONTENEDORES Y ESTRUCTURA
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>: Se utilizan para definir encabezados. <h1> es el más importante y <h6> el menos importante.
+<div>: Define una división o sección en un documento. Se usa para agrupar elementos y aplicarles estilos.
+<span>: Similar a <div>, pero para elementos en línea. Se usa para aplicar estilos a partes específicas de texto.
+
+ENLACES Y MULTIMEDIA
+<a>: Define un hipervínculo a otra página o recurso.
+<img>: Inserta una imagen en la página.
+
+LISTAS
+<ul>: Define una lista desordenada (con viñetas).
+<ol>: Define una lista ordenada (numerada).
+<li>: Define un elemento de lista dentro de una lista.
+
+TABLAS
+<table>: Define una tabla.
+<tr>: Define una fila en una tabla.
+<td>: Define una celda de datos en una tabla.
+<th>: Define una celda de encabezado en una tabla.
+   
+FORMULARIOS
+<form>: Define un formulario para que el usuario introduzca datos.
+<input>: Define un campo de entrada (texto, contraseña, radio, checkbox, etc.).
+<label>: Asocia una etiqueta a un elemento <input> para mejorar la accesibilidad.
+<button>: Define un botón.
+<select>: Define una lista desplegable.
+<option>: Define una opción dentro de una lista desplegable.
+<textarea>: Define un área de texto para múltiples líneas.
+
+OTROS
+<br>: Inserta un salto de línea.
+<link>: Enlaza hojas de estilo externas.
+<meta>: Proporciona metadatos sobre el documento (no visibles en la página).
+<script>: Inserta código JavaScript.
