@@ -1,0 +1,222 @@
+Guía de etiquetas CSS
+Esta guía rápida contiene algunas de las etiquetas y propiedades más utilizadas en CSS para el diseño y estilo de páginas web.
+
+1. Selectores básicos
+*
+Selecciona todos los elementos del documento.
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+etiqueta
+Aplica estilo a todos los elementos de una etiqueta específica, como h1, p, div, etc.
+
+
+h1 {
+    color: blue;
+}
+.clase
+Selecciona todos los elementos que tengan una clase específica.
+
+
+.mi-clase {
+    background-color: yellow;
+}
+#id
+Selecciona un elemento con un ID específico.
+
+
+#mi-id {
+    font-size: 20px;
+}
+etiqueta.clase
+Selecciona una etiqueta específica con una clase específica.
+
+
+button.boton-primario {
+    background-color: green;
+}
+2. Propiedades de Texto
+color
+Cambia el color del texto.
+
+
+p {
+    color: #333;
+}
+font-size
+Define el tamaño de la fuente.
+
+
+h1 {
+    font-size: 24px;
+}
+font-family
+Especifica la familia de fuentes para el texto.
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+text-align
+Alinea el texto dentro de su contenedor.
+
+
+p {
+    text-align: center;
+}
+font-weight
+Define el grosor del texto.
+
+
+h2 {
+    font-weight: bold;
+}
+text-decoration
+Agrega o quita subrayado, línea, etc., al texto.
+
+
+a {
+    text-decoration: none;
+}
+3. Propiedades de Fondo
+background-color
+Define el color de fondo de un elemento.
+
+
+body {
+    background-color: #f4f4f4;
+}
+background-image
+Establece una imagen de fondo.
+
+
+div {
+    background-image: url('imagen.jpg');
+}
+background-size
+Ajusta el tamaño de la imagen de fondo.
+
+
+div {
+    background-size: cover;
+}
+background-position
+Define la posición de la imagen de fondo.
+
+
+div {
+    background-position: center;
+}
+4. Dimensiones y Espaciado
+width y height
+Definen el ancho y alto de un elemento.
+
+
+div {
+    width: 200px;
+    height: 100px;
+}
+margin
+Agrega espacio alrededor del elemento (exterior).
+
+
+p {
+    margin: 20px;
+}
+padding
+Agrega espacio dentro del elemento (interior).
+
+
+div {
+    padding: 15px;
+}
+border
+Define el borde de un elemento.
+
+
+img {
+    border: 1px solid #ccc;
+}
+5. Propiedades de Visualización y Posicionamiento
+display
+Controla cómo se muestra un elemento.
+
+block: ocupa toda la línea.
+inline: en línea con otros elementos.
+flex: diseño flexible (usado en layouts).
+
+div {
+    display: flex;
+}
+position
+Define el tipo de posicionamiento de un elemento.
+
+static: posición normal en el flujo del documento.
+relative: relativo a su posición normal.
+absolute: posición absoluta respecto a su contenedor.
+fixed: fijo en la pantalla.
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+z-index
+Controla el apilamiento de elementos (qué elemento está "encima" de otro).
+
+
+div {
+    position: absolute;
+    z-index: 10;
+}
+6. Estilos de Bordes y Sombra
+border-radius
+Redondea los bordes de un elemento.
+
+
+img {
+    border-radius: 50%;
+}
+box-shadow
+Agrega sombra alrededor del elemento.
+
+
+div {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+7. Transiciones y Transformaciones
+transition
+Agrega una transición suave al cambiar propiedades.
+
+
+a {
+    transition: color 0.3s;
+}
+transform
+Aplica transformaciones como rotar, escalar, etc.
+
+
+div {
+    transform: rotate(45deg);
+}
+8. Flexbox y Grid
+Flexbox
+display: flex
+Establece un contenedor flexible.
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+Grid
+display: grid
+Establece un contenedor de rejilla.
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

@@ -1,0 +1,76 @@
+/* Reset CSS */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.15; /* Mejora la legibilidad */
+  -webkit-text-size-adjust: 100%; /* Ajuste de tamaño de texto en dispositivos */
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif; /* Puedes cambiar la fuente según prefieras */
+}
+
+main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+figure, hr,
+dl, dd {
+  margin: 0;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img, svg, video, canvas, audio, iframe, embed, object {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit; /* Hereda el font de su contenedor */
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  cursor: pointer;
+  appearance: none;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none; /* Elimina el borde por defecto al enfocar */
+}

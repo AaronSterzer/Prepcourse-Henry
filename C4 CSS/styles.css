@@ -1,19 +1,28 @@
+body{
+    background-color: rgb(243, 131, 131);
+}
+
 main{
     background-color: aquamarine;
 }
 
 .title{
-    font-size: 26px;
+    font-size: 2.5em;
 }
 
-#first{
+#first{ 
     color: darkgreen;
     font-size: 50px;
     font-style: initial;
+    width: 55vw;
+    margin: auto;
+    padding: 0.5em;
+    text-align: center;
+    
 }
 
 #last{
-    background-color: blue;
+    background-color: rgb(3, 3, 20);
     font-style: oblique;
 }
 
@@ -25,4 +34,34 @@ main{
 input{
     width: 250px;
     height: 25px;
+}
+
+.images{
+    border: 2.5px solid black;
+    padding: 1em 1em 1em 1em;
+    width: 350px;
+    border-radius: 10px;
+    transition: 0.5s; 
+    
+}
+/* el transition se puede utilizar ya que hay un HOVER aplicandose en images*/
+
+.images:hover{
+    background-color: black;
+}
+
+
+#cards-container{
+    border: 5px solid rgb(5, 17, 5);
+    border-radius: 10px;
+    padding: 4em;
+    display: flex;
+    flex-direction: row;
+    width: 85vw;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+
+
 }
